@@ -54,9 +54,9 @@ public class HelloGamble extends JFrame implements KeyListener{
 			int n3 = (int)(Math.random()*5);
 			trynum += 1;
 			
-			lb1.setText(Integer.toString(n1)); 
-			lb2.setText(Integer.toString(n2)); 
-			lb3.setText(Integer.toString(n3));
+			lb1.setText(n1 + ""); 
+			lb2.setText(n2 + ""); 
+			lb3.setText(n3 + "");
 			tryn.setText("½ÃµµÈ½¼ö : " + Integer.toString(trynum));
 			
 			if(n1 == n2 && n2 == n3) {
